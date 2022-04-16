@@ -332,7 +332,32 @@
 
         </LinearLayout>
 
-
     </LinearLayout>
+
+    <FrameLayout
+
+        android:layout_width="380dp"
+        android:layout_height="240dp"
+        android:layout_gravity="left"
+        android:layout_marginTop="10dp"
+        >
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:layout_gravity="right|bottom"
+            app:cardBackgroundColor="#33691E"
+            app:cardCornerRadius="45dp"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:src="@drawable/ic_baseline_star_24"
+            android:layout_gravity="center"
+                />
+
+        </androidx.cardview.widget.CardView>
+
+    </FrameLayout>
 
 </LinearLayout>

@@ -10,6 +10,21 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Material_Ui">
         <activity
+            android:name=".Card_Overlap_profile"
+            android:exported="false" />
+        <activity
+            android:name=".Card_Header_Images"
+            android:exported="false" />
+        <activity
+            android:name=".Card_Header"
+            android:exported="false" />
+        <activity
+            android:name=".Fab_Menu"
+            android:exported="false" />
+        <activity
+            android:name=".Blue_Appbar"
+            android:exported="false" />
+        <activity
             android:name=".Red_profile"
             android:exported="false" />
         <activity
