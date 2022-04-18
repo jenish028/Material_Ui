@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Material_Ui">
         <activity
+            android:name=".Code_veri"
+            android:exported="false" />
+        <activity
+            android:name=".Phone_veri"
+            android:exported="false" />
+        <activity
+            android:name=".Verification"
+            android:exported="false" />
+        <activity
             android:name=".Card_Overlap_profile"
             android:exported="false" />
         <activity

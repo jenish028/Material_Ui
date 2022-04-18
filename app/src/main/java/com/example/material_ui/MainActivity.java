@@ -36,7 +36,16 @@ public class MainActivity extends AppCompatActivity {
 
                 Intent intent = new Intent(MainActivity.this, Profile.class);
                 startActivity(intent);
-                Toast.makeText(MainActivity.this, "Profile", Toast.LENGTH_SHORT).show();
+//                Toast.makeText(MainActivity.this, "Profile", Toast.LENGTH_SHORT).show();
+            }
+        });
+        verification_cv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(MainActivity.this, Verification.class);
+                startActivity(intent);
+//                Toast.makeText(MainActivity.this, "Profile", Toast.LENGTH_SHORT).show();
             }
         });
 
