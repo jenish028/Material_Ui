@@ -9,7 +9,7 @@ import android.view.View;
 
 public class Profile extends AppCompatActivity {
 
-    private CardView polygon_cv, red_cv, blueappbar_cv,fabmenu_cv,cardheader_cv,cardimage_cv,cardoverlap_cv;
+    private CardView polygon_cv, red_cv, blueappbar_cv,fabmenu_cv,cardheader_cv,cardimage_cv,cardoverlap_cv,wallet_cv;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -80,6 +80,15 @@ public class Profile extends AppCompatActivity {
 
             }
         });
+        wallet_cv.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+
+                Intent intent = new Intent(Profile.this, Wallet.class);
+                startActivity(intent);
+
+            }
+        });
 
     }
 
@@ -91,5 +100,6 @@ public class Profile extends AppCompatActivity {
         cardheader_cv = findViewById(R.id.cardheader_cv);
         cardimage_cv = findViewById(R.id.cardimage_cv);
         cardoverlap_cv = findViewById(R.id.cardoverlap_cv);
+        wallet_cv = findViewById(R.id.wallet_cv);
     }
 }

@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Material_Ui">
         <activity
+            android:name=".Wallet"
+            android:exported="false" />
+        <activity
+            android:name=".Image_Veri"
+            android:exported="false" />
+        <activity
             android:name=".Code_veri"
             android:exported="false" />
         <activity

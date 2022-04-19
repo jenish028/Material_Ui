@@ -30,6 +30,13 @@ code_cv.setOnClickListener(new View.OnClickListener() {
         startActivity(intent);
     }
 });
+image_cv.setOnClickListener(new View.OnClickListener() {
+    @Override
+    public void onClick(View view) {
+        Intent intent=new Intent(Verification.this,Image_Veri.class);
+        startActivity(intent);
+    }
+});
 
     }
 
